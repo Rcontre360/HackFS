@@ -1,5 +1,7 @@
 /cache
 **/cache
+/artifacts
+**/artifacts
 out
 **/out
 /data
@@ -15,8 +17,10 @@ out
 *.env
 
 *.ignore.*
+*-lock.*
 yarn-error.log
 package-lock.json
+pnpm-lock.yaml
 
 .vscode/
 .npmrc
